@@ -17,7 +17,7 @@ Little Beluga aka Li'l Beluga is a simple game where you move a baby beluga whal
 
 ## Inspiration
 
-My wife and I appreciate [Raffi Cavoukian](https://en.wikipedia.org/wiki/Raffi) and his musical talent to create children's songs that are fun and wholesome. We sing Raffi songs to him while we play or when he is fussy and the song [Baby Beluga](https://www.youtube.com/watch?v=CDx9zqDpSik) always puts a smile on his face. I thought this would be a perfect piece of media to adapt for a *pretty simple* game.
+My wife and I appreciate [Raffi Cavoukian](https://en.wikipedia.org/wiki/Raffi) and his musical talent to create children's songs that are fun and wholesome. We sing Raffi songs to him while we play or when he is fussy the song [Baby Beluga](https://www.youtube.com/watch?v=CDx9zqDpSik) always puts a smile on his face. I thought this would be a perfect piece of media to adapt for a *pretty simple* game.
 
 ## Dedication
 
