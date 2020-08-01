@@ -16,8 +16,8 @@ void loop() {
 
   uint8_t button = arduboy.buttonsState();
 
-  arduboy.display(CLEAR_BUFFER);
-
   arduboy.setCursor(0, 0);
   arduboy.print(F("Li'l Beluga Baseline"));
+
+  arduboy.display(CLEAR_BUFFER);
 }
