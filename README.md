@@ -3,7 +3,7 @@ Arduboy [Game Jam 5](https://community.arduboy.com/t/game-jam-5-pretty-simple/90
 
 ## About
 
-Little Beluga aka Li'l Beluga is a simple game where you move a baby beluga around the sea to pop bubbles. The more bubble you pop the happier your little beluga gets.
+Little Beluga aka Li'l Beluga is a simple game where you move a baby beluga around the sea to pop bubbles. The more bubbles you pop the happier your little beluga becomes.
 
 ## How to Play
 
