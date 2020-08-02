@@ -17,3 +17,13 @@ const uint16_t titleScreenScore[] PROGMEM = {
   NOTE_REST,272, NOTE_FS5,545,
   TONES_REPEAT
 };
+
+const uint16_t bubbleGenerate[] PROGMEM = {
+  NOTE_E6,136, NOTE_F6,136, NOTE_C7,136, 
+  TONES_END 
+};
+
+const uint16_t bubblePop[] PROGMEM = {
+  NOTE_C7,136, NOTE_F6,136, NOTE_E6,136, 
+  TONES_END 
+};

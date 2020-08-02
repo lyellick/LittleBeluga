@@ -13,7 +13,6 @@ Sprites sprites;
 void setup() {
   arduboy.begin();
   arduboy.setFrameRate(60);
-  sound.tones(titleScreenScore);
 }
 
 void loop() {
