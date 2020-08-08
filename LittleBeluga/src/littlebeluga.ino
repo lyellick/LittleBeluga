@@ -3,6 +3,7 @@
 #include <ArduboyTones.h>
 
 #include "sound.h"
+#include "sprites.h"
 
 Arduboy2 arduboy;
 ArduboyTones sound(arduboy.audio.enabled);
@@ -23,6 +24,8 @@ void loop() {
   arduboy.pollButtons();
 
   uint8_t button = arduboy.buttonsState();
+
+  sprites.drawSelfMasked(0, 0, titleScreen, 60);
 
   arduboy.display(CLEAR_BUFFER);
 }
