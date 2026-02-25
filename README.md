@@ -25,7 +25,7 @@ Little Beluga aka Li'l Beluga is a simple game where you move a baby beluga whal
 
 ### Grab a Prebuilt `.hex`
 
-- Use the prebuilt file in this repo: `releases/LittleBeluga.hex`
+- Use the prebuilt file in this repo: `releases/LittleBeluga.hex` or the [release page](https://github.com/lyellick/LittleBeluga/releases/tag/alpha).
 - You can load that file directly in [Ardens](https://tiberiusbrown.github.io/Ardens/) without building.
 
 ### Build a `.hex` with PlatformIO
