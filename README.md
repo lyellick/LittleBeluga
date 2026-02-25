@@ -1,5 +1,8 @@
 # LittleBeluga
 
+![Lil'Beluga Title Screen](https://github.com/lyellick/LittleBeluga/blob/master/LittleBeluga/assets/TitleScreen/LittleBelugaTitle.png)
+
+
 ## About
 
 Little Beluga aka Li'l Beluga is a simple game where you move a baby beluga whale around and dodge waves.
