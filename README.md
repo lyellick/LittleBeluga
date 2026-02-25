@@ -6,13 +6,55 @@ Little Beluga aka Li'l Beluga is a simple game where you move a baby beluga whal
 
 ## How to Play
 
-[Controls Placeholder]
+- Goal: swim home by surviving until the distance bar reaches zero.
+- Start: from the title screen, press any button.
+- Movement:
+  - `UP` moves the beluga up.
+  - `DOWN` moves the beluga down.
+- Dodge the white wave columns by passing through their gaps.
+- Score increases by 1 each time you safely pass a column.
+- Speed gradually increases as you continue.
+- You lose if you hit a column.
+- You win the level when the distance bar is empty (`You made it home!`).
+- After Game Over or Level Complete, press any button to restart.
 
 ## Ways to Play
 
-[ProjectABE Placeholder]
+### Grab a Prebuilt `.hex`
 
-[Arduboy Install Guide Placeholder]
+- Use the prebuilt file in this repo: `releases/LittleBeluga.hex`
+- You can load that file directly in [Ardens](https://tiberiusbrown.github.io/Ardens/) without building.
+
+### Build a `.hex` with PlatformIO
+
+1. Install dependencies:
+   - [PlatformIO Core](https://docs.platformio.org/en/latest/core/installation/index.html)
+   - A C/C++ toolchain environment supported by PlatformIO (PlatformIO will download board/tool dependencies from `platformio.ini` automatically).
+2. Open a terminal in this repository.
+3. Build the Arduboy target:
+
+```powershell
+cd LittleBeluga
+pio run -e arduboy
+```
+
+4. The compiled ROM is generated at:
+
+```text
+LittleBeluga/.pio/build/arduboy/firmware.hex
+```
+
+5. Optional: copy it to the shared grab location:
+
+```powershell
+copy LittleBeluga\\.pio\\build\\arduboy\\firmware.hex releases\\LittleBeluga.hex
+```
+
+### Play in Ardens (Browser Emulator)
+
+1. Open: https://tiberiusbrown.github.io/Ardens/
+2. Load `firmware.hex` (use the page's load/upload action, or drag-and-drop the file into the emulator page).
+3. Start playing with your keyboard/controller mapping in Ardens.
 
 ## Inspiration
 
@@ -20,9 +62,9 @@ My wife and I appreciate [Raffi Cavoukian](https://en.wikipedia.org/wiki/Raffi) 
 
 ## Dedication
 
-To my wife, who has always been excited and supportive for any new hobby I find. 
+To my wife, who has always been excited and supportive for any new hobby I find.
 
-To my son, who smiles at me when ever I enter a room; thats all I need buddy. 
+To my son, who smiles at me when ever I enter a room; thats all I need buddy.
 
 And to our new unborn baby, whom I don't know yet, but I am sure you are cool too. `:P`
 
