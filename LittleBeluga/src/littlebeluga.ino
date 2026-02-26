@@ -231,7 +231,7 @@ void loop() {
     arduboy.print(F("Press any key"));
   } else {
     arduboy.setCursor(18, 20);
-    arduboy.print(F("You made it home!"));
+    arduboy.print(F("You made it to mama!"));
     arduboy.setCursor(22, 32);
     arduboy.print(F("Score: "));
     arduboy.print(score);
